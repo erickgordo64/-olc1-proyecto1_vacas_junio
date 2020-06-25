@@ -827,7 +827,7 @@ namespace _olc1_proyecto1
                 direccion = Path.GetDirectoryName(guardar.FileName);
                 StreamWriter escribir = new StreamWriter(guardar.FileName);
 
-                escribir.WriteLine("<html>\n<head>\n<title>Tokens</title>\n</head>\n<body>\n<center>");
+                escribir.WriteLine("<html>\n<head>\n<title>tablas sql</title>\n</head>\n<body>\n<center>");
 
                 for (int i = 0; i < tablas.Count; i++)
                 {

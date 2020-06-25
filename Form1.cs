@@ -22,6 +22,7 @@ namespace _olc1_proyecto1
         Sintactico sintactico = new Sintactico();
         ejecutar ej = new ejecutar();
         TablaSimbolos lista;
+        TablaErrores lsita_error;
         LinkedList<Token> listaTok;
         public Form1()
         {
@@ -296,7 +297,8 @@ namespace _olc1_proyecto1
 
         private void imprimirErrorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            lsita_error = TablaErrores.getInstancia();
+            lsita_error.Imprimir_errores();
         }
     }
 }
