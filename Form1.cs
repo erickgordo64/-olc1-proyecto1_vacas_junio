@@ -291,6 +291,7 @@ namespace _olc1_proyecto1
 
         private void verTablasToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            ej.gettabla();
             ej.imprimirtabla();
         }
 

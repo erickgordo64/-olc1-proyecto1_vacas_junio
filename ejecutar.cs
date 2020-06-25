@@ -812,6 +812,12 @@ namespace _olc1_proyecto1
 
         }
 
+
+        public List<Tabla> gettabla()
+        {
+            return tablas;
+        }
+
         internal class Condicion
         {
             public String campo;
