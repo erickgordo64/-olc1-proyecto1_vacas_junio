@@ -55,7 +55,7 @@
             this.ayudaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(569, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -119,42 +119,42 @@
             // ejecutarToolStripMenuItem
             // 
             this.ejecutarToolStripMenuItem.Name = "ejecutarToolStripMenuItem";
-            this.ejecutarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ejecutarToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.ejecutarToolStripMenuItem.Text = "Ejecutar";
             this.ejecutarToolStripMenuItem.Click += new System.EventHandler(this.ejecutarToolStripMenuItem_Click);
             // 
             // cargarTablasToolStripMenuItem
             // 
             this.cargarTablasToolStripMenuItem.Name = "cargarTablasToolStripMenuItem";
-            this.cargarTablasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cargarTablasToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.cargarTablasToolStripMenuItem.Text = "Cargar tablas";
             this.cargarTablasToolStripMenuItem.Click += new System.EventHandler(this.cargarTablasToolStripMenuItem_Click);
             // 
             // imprmirTokenToolStripMenuItem
             // 
             this.imprmirTokenToolStripMenuItem.Name = "imprmirTokenToolStripMenuItem";
-            this.imprmirTokenToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.imprmirTokenToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.imprmirTokenToolStripMenuItem.Text = "Imprmir token";
             this.imprmirTokenToolStripMenuItem.Click += new System.EventHandler(this.imprmirTokenToolStripMenuItem_Click);
             // 
             // imprimirErrorToolStripMenuItem
             // 
             this.imprimirErrorToolStripMenuItem.Name = "imprimirErrorToolStripMenuItem";
-            this.imprimirErrorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.imprimirErrorToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.imprimirErrorToolStripMenuItem.Text = "imprimir error";
             this.imprimirErrorToolStripMenuItem.Click += new System.EventHandler(this.imprimirErrorToolStripMenuItem_Click);
             // 
             // verTablasToolStripMenuItem
             // 
             this.verTablasToolStripMenuItem.Name = "verTablasToolStripMenuItem";
-            this.verTablasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.verTablasToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.verTablasToolStripMenuItem.Text = "ver tablas";
             this.verTablasToolStripMenuItem.Click += new System.EventHandler(this.verTablasToolStripMenuItem_Click);
             // 
             // verArbolToolStripMenuItem
             // 
             this.verArbolToolStripMenuItem.Name = "verArbolToolStripMenuItem";
-            this.verArbolToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.verArbolToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.verArbolToolStripMenuItem.Text = "ver arbol";
             this.verArbolToolStripMenuItem.Click += new System.EventHandler(this.verArbolToolStripMenuItem_Click);
             // 
@@ -176,7 +176,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 454);
+            this.ClientSize = new System.Drawing.Size(569, 454);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
