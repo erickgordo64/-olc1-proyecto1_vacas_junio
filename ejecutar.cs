@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +24,7 @@ namespace _olc1_proyecto1
         LinkedList<Token> listaTok;
         Token tokenactual;
         int control_token;
+        string nombre_archivo, direccion;
         public void ejecutar_comando(LinkedList<Token> tokens)
         {
             control_token = 0;
@@ -809,6 +811,53 @@ namespace _olc1_proyecto1
                     }
                 }
             }
+
+
+
+            SaveFileDialog guardar = new SaveFileDialog();
+            guardar.Filter = "archivo html|*.html";
+            guardar.Title = "reporte tablas html";
+            guardar.FileName = nombre_archivo + ".html";
+            var resultado = guardar.ShowDialog();
+            int columnas = 0;
+
+            if (resultado == DialogResult.OK)
+            {
+                nombre_archivo = Path.GetFileNameWithoutExtension(guardar.FileName);
+                direccion = Path.GetDirectoryName(guardar.FileName);
+                StreamWriter escribir = new StreamWriter(guardar.FileName);
+
+                escribir.WriteLine("<html>\n<head>\n<title>Tokens</title>\n</head>\n<body>\n<center>");
+
+                for (int i = 0; i < tablas.Count; i++)
+                {
+                    escribir.WriteLine("\n<h1>" + tablas[i].nombre + "</h1>\n<table border=\"2px\">\n<tr>\n");
+                    for (int j = 0; j < tablas[i].filas.Count; j++)
+                    {
+                        escribir.WriteLine("<td> " + tablas[i].filas[j].nombre + "</td>\n");
+                        columnas = tablas[i].filas[j].columnas.Count;
+                    }
+                    escribir.WriteLine("</tr>");
+
+                    for (int j = 0; j < columnas; j++)
+                    {
+                        escribir.WriteLine("<tr> ");
+                        for (int k = 0; k < tablas[i].filas.Count; k++)
+                        {
+                            escribir.WriteLine("<td> " + tablas[i].filas[k].columnas[j] + " </td>\n");
+                        }
+                        escribir.WriteLine("</tr>");
+                    }
+                    escribir.WriteLine("</table>");
+                }
+
+                escribir.WriteLine("</center></body>\n</html>");
+                escribir.Close();
+            }
+                
+
+
+
 
         }
 
