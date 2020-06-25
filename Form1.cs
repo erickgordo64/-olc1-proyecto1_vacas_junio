@@ -29,7 +29,29 @@ namespace _olc1_proyecto1
             InitializeComponent();
         }
 
-        
+        internal ejecutar ejecutar
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        internal Sintactico Sintactico
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        internal Lexico Lexico
+        {
+            get => default;
+            set
+            {
+            }
+        }
 
         private void nueboToolStripMenuItem_Click(object sender, EventArgs e)
         {

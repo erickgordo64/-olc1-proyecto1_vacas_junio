@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_olc1_proyecto1.ejecutar">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="_olc1_proyecto1.ejecutar.Condicion" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ejecutar.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="_olc1_proyecto1.ejecutar.Seleccion" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ejecutar.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>wIRAAQEAQAAAIkAEAAwAAMAAAEhERBJEgBBhgIAAABA=</HashCode>
+      <FileName>ejecutar.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Fila" />
+      <Property Name="Tabla" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="_olc1_proyecto1.Fila">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fila.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_olc1_proyecto1.Form1">
+    <Position X="6.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OSEACAAoCSABAEpCAEqQUAACQQEIABQABgABAAQEBAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ejecutar" />
+      <Property Name="Sintactico" />
+      <Property Name="Lexico" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="_olc1_proyecto1.Lexico">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEECAAAAGKQAQBEAAAAgAAAAAAAAIBAAIggEAAAAEA=</HashCode>
+      <FileName>Lexico.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TablaErrores" />
+      <Property Name="TablaSimbolos" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="_olc1_proyecto1.Sintactico">
+    <Position X="3.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wkBAAYAAAQBIIkBERIMChACIGgiFZSIAlCAFjIDBlAA=</HashCode>
+      <FileName>Sintactico.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_olc1_proyecto1.Tabla">
+    <Position X="1" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Tabla.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_olc1_proyecto1.TablaErrores">
+    <Position X="9.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAQAAAAAAAAAACAAAAAAEAAAAAAAEEAA=</HashCode>
+      <FileName>TablaErrores.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_olc1_proyecto1.TablaSimbolos">
+    <Position X="12" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAIQAAAAAAAAIAAAAABAAEAEAAAIAFAAA=</HashCode>
+      <FileName>TablaSimbolos.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Token" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="_olc1_proyecto1.Token">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEABAAAAAEAAAAAAAAAAAAAAAAAQABAAAAgBAIAAAA=</HashCode>
+      <FileName>Token.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -31,6 +31,22 @@ namespace _olc1_proyecto1
             token = "";
         }
 
+        internal TablaErrores TablaErrores
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        internal TablaSimbolos TablaSimbolos
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         public void A_Lexico(string cadena)
         {
             //limpio listas

@@ -25,6 +25,23 @@ namespace _olc1_proyecto1
         Token tokenactual;
         int control_token;
         string nombre_archivo, direccion;
+
+        internal Fila Fila
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        internal Tabla Tabla
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         public void ejecutar_comando(LinkedList<Token> tokens)
         {
             control_token = 0;

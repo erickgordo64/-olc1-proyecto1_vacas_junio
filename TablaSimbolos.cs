@@ -16,6 +16,14 @@ namespace _olc1_proyecto1
         private static TablaSimbolos instancia=null;
         string nombre_archivo, direccion;
 
+        internal Token Token
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         public static TablaSimbolos getInstancia()
         {
             if (instancia == null)
